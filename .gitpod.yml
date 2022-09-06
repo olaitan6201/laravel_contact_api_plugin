@@ -1,8 +1,20 @@
+
 tasks:
   - init: composer install 
     command: php artisan serve
-    
+
 
 ports:
   - port: 8000
     onOpen: open-browser
+
+vscode:
+  extensions:
+    - bmewburn.vscode-intelephense-client
+    - mohamedbenhida.laravel-intellisense
+    - amiralizadeh9480.laravel-extra-intellisense
+    - shufo.vscode-blade-formatter
+    - stef-k.laravel-goto-controller
+    - codingyu.laravel-goto-view
+    - onecentlin.laravel5-snippets
+    - onecentlin.laravel-blade
