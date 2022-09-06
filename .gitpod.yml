@@ -1,0 +1,6 @@
+tasks:
+  - init: "composer install && php artisan serve"
+
+ports:
+  - port: 8000
+    onOpen: open-browser
