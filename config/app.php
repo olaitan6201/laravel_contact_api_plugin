@@ -58,6 +58,10 @@ return [
 
     'asset_url' => env('ASSET_URL'),
 
+    'client_id' => env('GOOGLE_CLIENT_ID', ''),
+    'client_secret' => env('GOOGLE_CLIENT_SECRET', ''),
+    'client_scopes' => env('GOOGLE_CLIENT_SCOPES', ''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
