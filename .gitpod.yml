@@ -1,5 +1,7 @@
 tasks:
-  - init: "composer install && php artisan serve"
+  - init: composer install 
+    command: php artisan serve
+    
 
 ports:
   - port: 8000
